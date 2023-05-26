@@ -2,7 +2,6 @@
 /**
  This class tests the code for Lab2: Exercise4. It describes a simple
  GenericQueue class using generics.
- It expands upon a framework provided by Srini.
  */
 
 import java.util.ArrayList;
