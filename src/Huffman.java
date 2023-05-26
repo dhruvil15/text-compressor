@@ -6,11 +6,6 @@ import java.util.*;
 
 public class
 Huffman {
-
-    /**
-     Code
-     provided from previous version and modified for 2020.
-     */
     public static void encode()throws IOException{
         // initialize Scanner to capture user input
         Scanner sc = new Scanner(System.in);
@@ -230,7 +225,7 @@ Huffman {
     // the findEncoding helper method returns a String Array containing
     // Huffman codes for all characters in the Huffman Tree (characters not
     // present are represented by nulls)
-    // this method was provided by Srini (Dr. Srini Sampalli). Two versions are below, one for Pairtree and one for BinaryTree
+    //Two versions are below, one for Pairtree and one for BinaryTree
 
     private static String[] findEncoding(BinaryTree<Pair> bt){
         String[] result = new String[256];
