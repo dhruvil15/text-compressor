@@ -1,8 +1,4 @@
 
-/**
- This class describes a simple BinaryTree class. It was provided by Srini
- (Dr. Srini Sampalli).
- */
 
 import java.util.LinkedList;
 import java.util.Queue;
